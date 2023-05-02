@@ -30,5 +30,10 @@ namespace Academy
                 currentProcess.CloseMainWindow();
             }
         }
+
+        private void FormLoad(object sender, EventArgs e)
+        {
+            this.lblTitle.Left = (this.Width - this.lblTitle.Width) / 2;
+        }
     }
 }
