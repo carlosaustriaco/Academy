@@ -1,3 +1,5 @@
 *.exe
 *.dll
-Academy/.vs/*.*
+Academy/.vs/
+Academy/obj/
+Academy/bin/
